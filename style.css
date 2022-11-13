@@ -13,8 +13,8 @@ body,
 }
 
 body {
-  font-family: sans-serif;
-  background-color: #f9fbfd;
+  font-family:Georgia, 'Times New Roman', Times, serif
+  background-color: #f916d7;
 }
 
 .wrapper {
@@ -27,18 +27,18 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(318, 91%, 51%);
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(129, 95%, 52%);
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(145, 84%, 48%);
-  font-size: 18px;
+  color: hsl(145, 86%, 25%);
+  font-size: 30px;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 1600px;
   padding: 30px 40px;
 }
 
@@ -46,7 +46,7 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #469df4;
+  background: #05f846;
   height: 2px;
 }
 
@@ -62,7 +62,7 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: #0c04f2;
   height: 2px;
 }
 
@@ -74,11 +74,11 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: rgb(252, 23, 69);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
-  color: hsl(0, 0%, 100%);
+  color: hsl(213, 87%, 63%);
   display: inline-block;
   font-size: 22px;
   line-height: 22px;
@@ -90,7 +90,7 @@ header {
 
 button[disabled] {
   cursor: default;
-  background: #c0c7cf;
+  background: #053162;
 }
 
 .float-right {
@@ -104,18 +104,22 @@ button[disabled] {
   border: none;
   display: block;
   width: 100%;
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-bottom: 85px;
   font-size: 1.2rem;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 2px dashed #115fb9;
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
 
 @media (max-width: 690px) {
