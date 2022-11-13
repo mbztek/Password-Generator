@@ -1,4 +1,3 @@
-to be included in password
 var specialCharacters = [
   '@',
   '%',
